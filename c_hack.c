@@ -25,7 +25,7 @@ int *get_bits(int n, int bitswanted)
 int main(int argc, char const *argv[])
 {
 	int n = 2147483647;
-	int n0 = 2147483648;
+	int n0 = 4294967296;
 	int  bitswanted = 32;
 
 	int *bits = get_bits(n, bitswanted);
