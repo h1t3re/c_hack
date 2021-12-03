@@ -7,7 +7,8 @@ int *get_bits(int n, int bitswanted){
 
 	int k;
 	for(k = 0; k < bitswanted; k++){
-		int mask =  1 << k;
+		int mask =  -1 << k;
+		printf("%d\n", mask);
 		int masked_n = n & mask;
 		int thebit = masked_n >> k;
 		bits[k] = thebit;
@@ -27,7 +28,7 @@ int main(int argc, char const *argv[])
 	int after_limit = int_sign_limit + addend;
 	printf("after limit = %d\n", ((int*)var)[0]+1);*/
 	
-	int n=-8;
+	int n = 134217728;
 
 	int  bitswanted = 33;
 
