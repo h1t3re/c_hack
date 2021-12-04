@@ -9,7 +9,7 @@ int *get_ints(int number, int bitswanted)
 	int *bits = (int*)malloc(bitswanted*sizeof(int));
 	for (int i = 0; i < bitswanted; ++i)
 	{
-		mask = -1 << i;
+		mask = 1 << i;
 		mask_number = number & mask;
 		poid = mask_number >> i;
 		bits[i] = poid; 	
@@ -19,7 +19,7 @@ int *get_ints(int number, int bitswanted)
 
 int main(int argc, char const *argv[])
 {
-	int number = 8;
+	int number = 1;
 	int bitswanted = 32;
 	int *bits = get_ints(number, bitswanted);
 	printf("%d = ", number);
@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
 	free(bits);
 	printf("\n");
 
-	number = 2147483647;
+	number = 0;
 	bits = get_ints(number, bitswanted);
 	printf("%d = ", number);
 	for (int i = bitswanted-1; i >= 0; --i)
@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 	free(bits);
 	printf("\n");
 
-	number = 2147483648;
+	number = -1;
 	bits = get_ints(number, bitswanted);
 	printf("%d = ", number);
 	for (int i = bitswanted-1; i >= 0; --i)
