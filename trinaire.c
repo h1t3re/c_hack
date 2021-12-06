@@ -21,15 +21,30 @@ int main(int argc, char const *argv[])
 	int *array = (int*)malloc(array_length*sizeof(int));
 	array[0] = 0;
 	array[1] = 1;
-	array[2] =  2147483647;
-	array[3] =  2147483648;
-	array[4] =  4294967295;
+	array[2] = 2147483647;
+	array[3] = 2147483648;
+	array[4] = 4294967295;
 	array[5] = -1;
 	array[6] = 4294967296;
 	int *bits = (int *)malloc(int_length*sizeof(int));
 	int *result = (int *)malloc(int_length*array_length*sizeof(int));
 	for (int j = 0; j < array_length; ++j)
 	{
+		if(j == 0){
+			printf("0 = ");
+		}else if(j == 1){
+			printf("1 = ");
+		}else if(j == 2){
+			printf("2147483647 = ");
+		}else if(j == 3){
+			printf("2147483648 = ");
+		}else if(j == 4){
+			printf("4294967295 = ");
+		}else if(j == 5){
+			printf("-1 = ");
+		}else if(j == 6){
+			printf("4294967296 = ");
+		}
 		printf("%d = ", array[j]);
 		convert_int_to_binary(bits, array[j], int_length);
 		for (int i = int_length-1; i >=	 0; --i)
