@@ -17,7 +17,7 @@ void convert_int_to_binary(int *bits, int number, int binary_length)
 int main(int argc, char const *argv[])
 {
 	int int_length = 32;
-	int array_length = 6;
+	int array_length = 7;
 	int *array = (int*)malloc(array_length*sizeof(int));
 	array[0] = 0;
 	array[1] = 1;
@@ -25,6 +25,7 @@ int main(int argc, char const *argv[])
 	array[3] =  2147483648;
 	array[4] =  4294967295;
 	array[5] = -1;
+	array[6] = 4294967296;
 	int *bits = (int *)malloc(int_length*sizeof(int));
 	int *result = (int *)malloc(int_length*array_length*sizeof(int));
 	for (int j = 0; j < array_length; ++j)
