@@ -20,7 +20,7 @@ We can observe that the number 2147483647 in binary is 0 at the most significant
 
 ##### Understanding of the -1.
 
-Know to understand the -1. I i calculated the binary value of some numbers with the binary mask of -1. Let's see a few examples:
+Now to understand the -1. I i calculated the binary value of some numbers with the binary mask of -1. Let's see a few examples:
 
 
 This is the binary representation of the number 3 with the binary mask 1: 
