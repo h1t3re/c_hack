@@ -36,7 +36,9 @@ Let's explain. To calculate the binary value of the number, we have to do an and
 Let's take the first shift:
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1  1 
+
 &
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1
 
 =
@@ -47,7 +49,9 @@ The calcule is: -1 is is away from the first bit by 0 so it's 2^0 in addition to
 Now the second shift:
 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  1 1 
+
 &
+
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0
 
 =
