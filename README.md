@@ -64,6 +64,8 @@ mask 1 : 4 = 4 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 mask -1 : 4 = 4 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 4 
 
+####### I have deducted that with the mask -1, 1 bit becomes 32 bits.
+
 ---
 ###### The line of bits of ints
 ![alt text](https://github.com/lahbabic/c_hack/blob/main/triangular_function_of_ints.png)
