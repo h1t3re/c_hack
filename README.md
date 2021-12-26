@@ -18,6 +18,17 @@ The number 2147483648 with binary mask 1 in 32 bit format is stored in an "int" 
 
 We can observe that the number 2147483647 in binary is 0 at the most significant bit and 1's at the other bits. After adding one to the int 21474    83647 it become now -2147483648 and in binary it's a -1 at the most significant bit and 0's at the other bits.
 
+And the limit is the number 4294967295, adding one to this number it becomes a 0 stored in 32 bit format like an integer in c language:
+
+mask 1 : 4294967295 = -1 = -1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+mask 1 : 4294967296 = 0 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+We can represent an int in 32 bit format with the following function:
+
+###### The line of bits of ints
+![alt text](https://github.com/lahbabic/c_hack/blob/main/triangular_function_of_ints.png)
+---
 ##### Understanding of the -1.
 
 Now to understand the -1. I calculated the binary value of some numbers with the binary mask of -1. Let's see a few examples:
@@ -66,8 +77,4 @@ mask -1 : 4 = 4 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 
 
 ###### I have deducted that with the mask -1, 1 bit becomes 32 bits.
 
----
-###### The line of bits of ints
-![alt text](https://github.com/lahbabic/c_hack/blob/main/triangular_function_of_ints.png)
----
 0 1 4 2 8 12 3 13 7 5 11 15 24 25 19 (26 9) 14 18 27 28 22 (29 11) (44 8) (37 12) (30 3) (40 4) (25 7) (41 5) (47 11) (44 8) (42 6) 6 
