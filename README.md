@@ -27,7 +27,7 @@ mask 1 : 4294967296 = 0 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 We can represent an int in 32 bit format with the following function:
 
 ###### The line of bits of ints
-![alt text](https://github.com/lahbabic/c_hack/blob/main/line_of_bits_of_ints.png)
+![alt text](https://github.com/lahbabic/c_hack/blob/main/line_of_bits_of_ints0.png)
 ---
 ##### Understanding of the -1.
 
