@@ -79,4 +79,4 @@ The binary mask can take 3 values: -1, 0, or 1.
 
 ###### I have deducted that with the mask -1: 1 bit becomes 32 bits. And the representation of that bit value is "the line of bits of ints".
 
-0 1 4 2 8 12 3 13 7 5 11 15 24 25 19 (26 9) 14 18 27 28 22 (29 11) (44 8) (37 12) (30 3) (40 4) (25 7) (41 5) (47 11) (44 8) (42 6) 6 
+0 1 4 2 8 12 3 13 7 5 11 15 24 25 19 (26 9) 14 18 27 28 22 (29 11) (44 8) (37 12) (30 3) (40 4) (25 7) (41 5) (47 11) (44 8) (42 6) 6
