@@ -1,6 +1,6 @@
-#### Their is more than 0 and 1. Their is -1, 0 and 1 "Trinaire".
+#### There is more than 0 and 1. Their is -1, 0 and 1 "Trinaire".
 
-##### Discovery of the -1.
+##### The discovery of the -1.
 
 To know how do i discovered the "-1". We have to run a few examples.
 
@@ -29,7 +29,7 @@ We can represent an int in 32 bit format with the following function:
 ###### The line of bits of ints
 ![alt text](https://github.com/lahbabic/c_hack/blob/main/line_of_bits_of_ints.png)
 ---
-##### Understanding of the -1.
+##### The understanding of the -1.
 
 Now to understand the -1. I calculated the binary value of some numbers with the binary mask of -1. Let's see a few examples:
 
