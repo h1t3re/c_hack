@@ -1,5 +1,11 @@
 #### There is more than 0 and 1. Their is -1, 0 and 1 "Trinaire".
 
+#### To run the process:
+
+$ make
+
+$ ./trinaire
+
 ##### The discovery of the -1.
 
 To know how do i discovered the "-1". We have to run a few examples.
