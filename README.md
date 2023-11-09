@@ -20,7 +20,9 @@ The number 2147483648 with binary mask 1 in 32 bit format is stored in an "int" 
 
 2147483648 = -2147483648 = -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
-We can observe that the number 2147483647 in binary is 0 at the most significant bit and 1's at the other bits. After adding one to the int 21474    83647 it become now -2147483648 and in binary it's a -1 at the most significant bit and 0's at the other bits.
+The number 2147483647 in binary is 0 at the most significant bit and 1's at the other bits. After adding one to the int 2147483647 it become now -2147483648 and in binary it's a -1 at the most significant bit and 0's at the other bits.
+
+We observe her that a bit "-1" apear from no where.
 
 And the limit is the number 4294967295, adding one to this number it becomes a 0 stored in 32 bit format like an integer in c language:
 
